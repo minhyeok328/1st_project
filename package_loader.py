@@ -63,5 +63,5 @@ if __name__ == "__main__":
     DBLoader.sendquery("DROP TABLE IF EXISTS car_oil")
     DBLoader.sendquery("DROP TABLE IF EXISTS car_price")
 
-    export_table("car_price", attrib_price, csv_import("DB_Side/car_price.csv"))
-    export_table("car_oil", attrib_oil, csv_import("DB_Side/car_oil.csv"))
+    export_table("car_price", attrib_price, csv_import("data/vehicles/car_price.csv"))
+    export_table("car_oil", attrib_oil, csv_import("data/vehicles/car_oil.csv"))
