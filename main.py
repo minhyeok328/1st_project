@@ -118,7 +118,7 @@ n1, n2 = st.columns([2, 8])
 
 with n1:
     st.write(" ")
-    st.image("logo.png", width=200)
+    st.image("assets/logo.png", width=200)
 with n2:
     st.markdown("# TCO Insight")
     st.markdown("### 데이터로 설계하는 스마트 차량 관리 솔루션")
